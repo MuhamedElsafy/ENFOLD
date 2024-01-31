@@ -1,0 +1,408 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(55, 60, 66, 0.6);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#backToTopBtn:hover {
+  background-color: #e6eaee;
+  color: #efbb20;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img-box {
+  width: 200px;
+}
+.img-box img {
+  width: 100%;
+}
+/* navbar */
+.navbar {
+  background-color: #2c353d;
+}
+.nav-item {
+  padding: 0 15px;
+}
+.nav-item a {
+  color: white;
+}
+.brdr {
+  width: 1px;
+  height: 40px;
+  background-color: #282f35;
+}
+.search i {
+  color: white;
+  margin: 0 40px !important;
+}
+
+/* footer */
+.end {
+  background-color: #2c353d;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.info {
+  padding-top: 50px;
+  color: #fff;
+  width: 20%;
+}
+.info h4 {
+  border-top: #e6eaee 1px solid;
+  border-bottom: #e6eaee 1px solid;
+  padding: 8px 0;
+}
+.info .pa {
+  font-size: 18px;
+  padding: 10px 0 30px 0;
+}
+.icon4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon4 i {
+  font-size: 35px;
+}
+.icon4 a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.icon4 a:hover {
+  color: #efbb20;
+}
+.info .img-box4 {
+  width: 50px;
+  height: 50px;
+  border: #454e57 solid 5px;
+}
+.img-box4 img {
+  width: 100%;
+  height: 100%;
+  image-resolution: inherit;
+}
+.end-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.min-footer {
+  background-color: #5b646b;
+  height: 60px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.one a {
+  color: #fff;
+  text-decoration: none;
+}
+.one a:hover {
+  color: #efbb20;
+}
+.two a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 5px;
+}
+.two a:hover {
+  color: #efbb20;
+}
+
+/* boxx */
+.boxx {
+  display: flex;
+}
+
+.photo-box {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 85%;
+}
+
+.photo-box img {
+  width: 100%;
+}
+
+.small-one {
+  width: 30%;
+  border-left: 1px solid rgb(91, 100, 107, 0.5);
+  padding: 35px;
+}
+.small-one h4 {
+  width: 85%;
+  margin-top: 20px;
+  padding: 10px 0;
+  border-top: 1px solid rgb(91, 100, 107, 0.4);
+  border-bottom: 1px solid rgb(91, 100, 107, 0.4);
+}
+.share-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: wheat;
+  color: black;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.share-button:hover {
+  background-color: rgba(245, 222, 179, 0.638);
+}
+.last-pro {
+  display: flex;
+  align-items: center;
+}
+.last-img {
+  width: 15%;
+  border: rgb(91, 100, 107, 0.5) 1px solid;
+  margin-right: 10px;
+  transform: translateY(-8px);
+}
+.last-img img {
+  padding: 5px;
+  width: 100%;
+}
+.last-pro a {
+  color: black;
+  text-decoration: none;
+}
+.last-pro p {
+  color: rgb(91, 100, 107, 0.7);
+}
+.ancors a {
+  color: rgb(91, 100, 107, 0.7);
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+.ancors a:hover {
+  color: #efbb20;
+}
+.office h6 {
+  color: #efbb20;
+  font-size: 18px;
+}
+.office p {
+  color: rgb(91, 100, 107, 0.7);
+}
+.big-one {
+  width: 70%;
+  text-align: center;
+  padding: 35px;
+}
+.big-one h5 {
+  color: #efbb20;
+}
+.big-one h4 {
+  position: relative;
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+.big-one h4:hover {
+  color: rgb(44, 53, 61, 0.8);
+}
+.big-one h4::after {
+  content: "";
+  background-color: rgb(91, 100, 107, 0.7);
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  left: 460px;
+  top: 80px;
+}
+.entry img {
+  width: 95%;
+  border-radius: 5px;
+  transition: all 1s;
+}
+.entry img:hover {
+  opacity: 0.6;
+}
+.entry p {
+  color: #9c9c9c;
+  font-size: 18px;
+  text-align: left;
+  padding: 22px;
+}
+.tex {
+  border-left: #efbb20 7px solid;
+  margin: 20px;
+}
+.tex p {
+  color: #919191;
+  text-align: left;
+  padding: 0px 18px;
+  font-size: 20px;
+}
+.big-one .bttn {
+  width: 220px;
+  padding: 10px 30px;
+  border: #efbb20 1px solid;
+  color: #efbb20;
+  background-color: white;
+  border-radius: 20px;
+  margin: 35px 0px;
+}
+.date {
+  border-top: 1px solid rgb(91, 100, 107, 0.4);
+  border-bottom: 1px solid rgb(91, 100, 107, 0.4);
+  padding: 5px 0;
+}
+.date p {
+  display: inline-block;
+  padding: 7px;
+  margin-bottom: 0px !important;
+  color: #9c9c9c;
+}
+.date .pp {
+  border-right: 1px solid rgb(91, 100, 107, 0.4);
+}
+.date a {
+  color: #9c9c9c;
+  text-decoration: none;
+}
+.date a:hover {
+  color: #efbb20;
+}
+.personal img {
+  width: 95%;
+  border-radius: 5px;
+  transition: all 1s;
+}
+.personal img:hover {
+  opacity: 0.6;
+}
+.personal p {
+  color: #9c9c9c;
+  font-size: 18px;
+  text-align: left;
+  padding: 22px;
+}
+.big-one ul {
+  text-align: left;
+  margin-left: 15px;
+}
+.big-one ul li {
+  color: #9c9c9c;
+  padding: 5px 0;
+  font-size: 18px;
+}
+.personal {
+  position: relative;
+}
+.personal .audio {
+  width: 80%;
+  position: absolute;
+  bottom: 150px;
+  left: 95px;
+}
+.pargraghs p {
+  color: #9c9c9c;
+  font-size: 18px;
+  text-align: left;
+  padding: 22px;
+}
+.big-one ol {
+  text-align: left;
+  margin-left: 20px;
+}
+.big-one ol li {
+  color: #9c9c9c;
+  padding: 5px 0;
+  font-size: 18px;
+}
+.img-brdr {
+  width: 90%;
+  border: 1px solid rgb(91, 100, 107, 0.1);
+  padding: 5px;
+  margin-left: 40px;
+}
+.main-image {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/modern-home-705x470.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  transition: all 1s;
+}
+.main-image:hover {
+  opacity: 0.6;
+}
+.img-collaction {
+  width: 90%;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-brdr1 {
+  width: 25%;
+  padding: 5px;
+  border: 1px solid rgb(91, 100, 107, 0.1);
+}
+.img-style {
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-size: 100% 100%;
+  transition: all 1s;
+}
+.image1 {
+  background-image: url(../img/modern-kitchen-495x400.jpg);
+}
+.img-style:hover {
+  opacity: 0.6;
+}
+/* .image1:hover + .main-image {
+    background-image: url(../img/modern-kitchen-495x400.jpg);
+} */
+.image2 {
+  background-image: url(../img/house-interior-495x400.jpg);
+}
+.image3 {
+  background-image: url(../img/superb-backyard-495x400.jpg);
+}
+.image4 {
+  background-image: url(../img/modern-home-705x470.jpg);
+}
+.big-one .pargh {
+  width: 90%;
+  margin-left: 40px;
+  text-align: left;
+  color: #9c9c9c;
+  font-size: 18px;
+}
+.big-one .list {
+    margin-left: 40px;
+}
+.list p {
+    text-align: left;
+    color: #9c9c9c;
+    font-size: 18px;
+    margin-left: 25px;
+}
